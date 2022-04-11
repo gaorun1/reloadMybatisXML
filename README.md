@@ -9,6 +9,7 @@
 - 添加jar包，路径在本项目 out/artifacts/reloadMybatisXML
 - 启动类添加包扫描 `@ComponentScan(value = {"com.gaorun"})`
 - 拦截器排除
+- 例：http://localhost:8080/user/mybatis/refersh/mapping-mysql-*.xml
 
 ### 不使用jar，直接使用源码
 - XMLMapperLoader 为核心类
