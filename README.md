@@ -7,6 +7,7 @@
   - 参数固定格式 xxx-xxx-xxx 层级以`-`分割
 ### 使用jar，操作步骤
 - 添加jar包，路径在本项目 out/artifacts/reloadMybatisXML
+- 启动类添加包扫描 `@ComponentScan(value = {"com.gaorun"})`
 - 拦截器排除
 
 ### 不使用jar，直接使用源码
