@@ -5,8 +5,8 @@
   - get 或 post请求
   - 读取位置为 resources下的xml，不限层级，可通过参数指定 
   - 参数固定格式 xxx-xxx-xxx 层级以`-`分割
-### 操作步骤
-- 添加jar包
+### 使用jar，操作步骤
+- 添加jar包，路径在本项目 out/artifacts/reloadMybatisXML
 - 拦截器排除
 
 ### 不使用jar，直接使用源码
